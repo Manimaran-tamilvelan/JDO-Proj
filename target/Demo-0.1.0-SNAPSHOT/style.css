@@ -1,0 +1,101 @@
+.formBorder {
+	padding: 50px;
+	width: 250px;
+	border: 2px solid;
+	border-color: #84565E;
+	box-shadow: 4px 4px 0px 1px #FEDBD0;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.formBorderForAll {
+	padding: 50px;
+	width: 800px;
+	border: 2px solid;
+	border-color: #84565E;
+	box-shadow: 4px 4px 0px 1px #FEDBD0;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h3 {
+	width: 350px;
+	color: #442C2E;
+	background-color: #FEDBD0;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border: 2px solid;
+	border-color: #84565E;
+	box-shadow: 0px 0px 3px 1.5px #FEDBD0;
+	border-radius: 5pc 20px;
+	text-align: center;
+}
+
+#button {
+	text-align: center;
+	color: #442C2E;
+	background-color: #FEDBD0;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.deleteButton {
+	background-image: url('delete.png');
+	width: 20px;
+	height: 20px;
+	align-items: center;
+	outline: none;
+	border-color: white;
+	margin-right: -40px;
+	background-color: white;
+	float:right;
+	border: 1px solid white;
+}
+
+.deleteButton:focus {
+	background-image: url('delete.png');
+	width: 20px;
+	height: 20px;
+	float:right;
+	margin-right: -40px;
+	align-items: center;
+	outline: none;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#button1 {
+	text-align: center;
+	color: #442C2E;
+	background-color: #FEDBD0;
+	width: 100px;
+	height: 30px;
+	margin-top: 30px;
+	border-radius: 5px;
+	outline: none;
+}
+
+#field {
+	border-radius: 5px;
+	padding: 5px;
+	width: 200px;
+	border: 1px solid;
+}
+
+#field:focus {
+	outline: none;
+	border-radius: 5px;
+	border-color: #FEDBD0;
+	box-shadow: 0px 0px 3px 1.5px #84565E;
+}
